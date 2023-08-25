@@ -14,6 +14,7 @@
 - Lock desktop <kbd>Mod</kbd> + <kbd>.</kbd> 
 - Exit session <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> 
 - Kill window <kbd>Mod</kbd> + <kbd>Q</kbd>
+- Open program <kbd>Mod</kbd> + <kbd>D</kbd>
 - Open files <kbd>Mod</kbd> + <kbd>E</kbd>
 - Open notifications <kbd>Mod</kbd> + <kbd>N</kbd>
 - Toggle floating <kbd>Mod</kbd> + <kbd>F</kbd>
@@ -28,6 +29,7 @@
 
 1. Install `Hyprland` as described [on wiki](https://wiki.hyprland.org/Getting-Started/Installation/)
 2. Install the dependencies 
+
 Arch: `yay -S fish kitty helix neovim swaylock swaybg swaync swayidle firefox-developer-edition nautilus`
 
 4. ```git clone https://github.com/kualta/dots && mv dots/* ~/.config/```
