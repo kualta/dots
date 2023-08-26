@@ -30,12 +30,12 @@
 1. Install `Hyprland` as described [on wiki](https://wiki.hyprland.org/Getting-Started/Installation/)
 2. Install the dependencies 
 
-Arch: `yay -S fish kitty helix neovim swaylock swaybg swaync swayidle firefox-developer-edition nautilus`
+Arch : `yay -S fish kitty helix neovim swaybg swaync swayidle rose-pine-gtk-theme firefox-developer-edition nautilus swaylock-effects`
+Arch (QoL): `yay -S discord telegram-desktop openvpn ttf-droid docker docker-compose pipewire pipewire-pulse pipewire-also pipewire-audio wireplumber visual-studio-code-bin bluez-utils-compat blueman`
 
 4. ```git clone https://github.com/kualta/dots && mv dots/* ~/.config/```
 5. Customize wallpaper and utility commands at `~/.config/hypr/hyprland.conf`
-
-
+6. You're amazing! (and so is your desktop)
 
 ### Gallery
 ![](https://github.com/kualta/dots/assets/72769566/6a2ef24b-05da-44c5-946a-e6c927ef3022)
