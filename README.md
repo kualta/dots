@@ -7,25 +7,80 @@
 - editor: [`helix`](https://helix-editor.com/), [`neovim`](https://neovim.io/), [`vscode`](https://code.visualstudio.com/)
 - menu: [`tofi`](https://github.com/philj56/tofi)
 
-> Tested with `Hyperland 0.27.0` on **Debian sid** and `Hyperland 0.28.0` on **Arch 6.4.11**
-
 ### Keybinds
-- Open terminal <kbd>Mod</kbd> + <kbd>Enter</kbd>
-- Lock desktop <kbd>Mod</kbd> + <kbd>.</kbd> 
-- Exit session <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> 
-- Kill window <kbd>Mod</kbd> + <kbd>Q</kbd>
-- Open program <kbd>Mod</kbd> + <kbd>D</kbd>
-- Open files <kbd>Mod</kbd> + <kbd>E</kbd>
-- Open notifications <kbd>Mod</kbd> + <kbd>N</kbd>
-- Toggle floating <kbd>Mod</kbd> + <kbd>F</kbd>
-- Toggle split <kbd>Mod</kbd> + <kbd>T</kbd>
-- Move around <kbd>Mod</kbd> + <kbd>h</kbd> / <kbd>j</kbd> / <kbd>k</kbd> / <kbd>l</kbd>
-- Move window <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>h</kbd> / <kbd>j</kbd> / <kbd>k</kbd> / <kbd>l</kbd>
+<details>
+  <summary><b>Desktop</b></summary>
+  
+- <kbd>Mod</kbd> + <kbd>Enter</kbd>  Open terminal 
+- <kbd>Mod</kbd> + <kbd>.</kbd>  Lock desktop 
+- <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd>  Exit session 
+- <kbd>Mod</kbd> + <kbd>Q</kbd>  Kill window 
+- <kbd>Mod</kbd> + <kbd>D</kbd>  Open program 
+- <kbd>Mod</kbd> + <kbd>E</kbd>  Open files 
+- <kbd>Mod</kbd> + <kbd>N</kbd>  Open notifications 
+- <kbd>Mod</kbd> + <kbd>F</kbd>  Toggle floating 
+- <kbd>Mod</kbd> + <kbd>T</kbd>  Toggle split 
+- <kbd>Mod</kbd> + <kbd>h</kbd> / <kbd>j</kbd> / <kbd>k</kbd> / <kbd>l</kbd>  Move around 
+- <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>h</kbd> / <kbd>j</kbd> / <kbd>k</kbd> / <kbd>l</kbd>  Move window 
+</details>
+
+<details>
+  <summary><b>Shell</b></summary>
+  
+### History
+
+- `ctrl-p` : Previous command in history
+- `ctrl-n` : Next command in history
+- `/`      : Search backward in history
+- `n`      : Repeat the last `/`
+
+### Movement
+
+- `$`   : To the end of the line
+- `^`   : To the first non-blank character of the line
+- `0`   : To the first character of the line
+- `w`   : [count] words forward
+- `W`   : [count] WORDS forward
+- `e`   : Forward to the end of word [count] inclusive
+- `E`   : Forward to the end of WORD [count] inclusive
+- `b`   : [count] words backward
+- `B`   : [count] WORDS backward
+- `t{char}`   : Till before [count]'th occurrence of {char} to the right
+- `T{char}`   : Till before [count]'th occurrence of {char} to the left
+- `f{char}`   : To [count]'th occurrence of {char} to the right
+- `F{char}`   : To [count]'th occurrence of {char} to the left
+- `;`   : Repeat latest f, t, F or T [count] times
+- `,`   : Repeat latest f, t, F or T in opposite direction
+
+### Insertion
+
+- `i`   : Insert text before the cursor
+- `I`   : Insert text before the first character in the line
+- `a`   : Append text after the cursor
+- `A`   : Append text at the end of the line
+- `o`   : Insert new command line below the current one
+- `O`   : Insert new command line above the current one
+
+### Delete and Insert
+
+- `ctrl-h`      : While in *Insert mode*: delete character before the cursor
+- `ctrl-w`      : While in *Insert mode*: delete word before the cursor
+- `d{motion}`   : Delete text that {motion} moves over
+- `dd`          : Delete line
+- `D`           : Delete characters under the cursor until the end of the line
+- `c{motion}`   : Delete {motion} text and start insert
+- `cc`          : Delete line and start insert
+- `C`           : Delete to the end of the line and start insert
+- `r{char}`     : Replace the character under the cursor with {char}
+- `R`           : Enter replace mode: Each character replaces existing one
+- `x`           : Delete `count` characters under and after the cursor
+- `X`           : Delete `count` characters before the cursor
+
+</details>
+
 
 ### Installation
 > Note: If using **Debian** as host, you'll have to compile most of the dependencies from source
-
-> Note: There's no status bar, if you want one check out [`waybar`](https://github.com/Alexays/Waybar)
 
 1. Install `Hyprland` as described [on wiki](https://wiki.hyprland.org/Getting-Started/Installation/)
 2. Install the dependencies 
