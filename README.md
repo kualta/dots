@@ -12,14 +12,15 @@
   <summary><b>Desktop</b></summary>
   
 - <kbd>Mod</kbd> + <kbd>Enter</kbd>  Open terminal 
-- <kbd>Mod</kbd> + <kbd>.</kbd>  Lock desktop 
-- <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd>  Exit session 
+- <kbd>Mod</kbd> + <kbd>Print</kbd>  Make a screenshot 
 - <kbd>Mod</kbd> + <kbd>Q</kbd>  Kill window 
 - <kbd>Mod</kbd> + <kbd>D</kbd>  Open program 
 - <kbd>Mod</kbd> + <kbd>E</kbd>  Open files 
 - <kbd>Mod</kbd> + <kbd>N</kbd>  Open notifications 
 - <kbd>Mod</kbd> + <kbd>F</kbd>  Toggle floating 
 - <kbd>Mod</kbd> + <kbd>T</kbd>  Toggle split 
+- <kbd>Mod</kbd> + <kbd>.</kbd>  Lock desktop 
+- <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd>  Exit session 
 - <kbd>Mod</kbd> + <kbd>h</kbd> / <kbd>j</kbd> / <kbd>k</kbd> / <kbd>l</kbd>  Move around 
 - <kbd>Mod</kbd> + <kbd>Shift</kbd> + <kbd>h</kbd> / <kbd>j</kbd> / <kbd>k</kbd> / <kbd>l</kbd>  Move window 
 </details>
@@ -85,7 +86,7 @@
 1. Install `Hyprland` as described [on wiki](https://wiki.hyprland.org/Getting-Started/Installation/)
 2. Install the dependencies 
 
-Arch : `yay -S zsh oh-my-zsh-git zsh-autosuggestions zsh-completions zsh-syntax-highlighting kitty helix neovim swaybg swaync swayidle rose-pine-gtk-theme firefox-developer-edition nautilus swaylock-effects`
+Arch : `yay -S zsh oh-my-zsh-git zsh-autosuggestions zsh-completions zsh-syntax-highlighting kitty grim slurp helix neovim swaybg swaync swayidle rose-pine-gtk-theme firefox-developer-edition nautilus swaylock-effects`
 
 Arch (QoL): `yay -S foliate discord telegram-desktop openvpn lld  ttf-material-design-icons wireplumber pipewire-jack pipewire-pulse ttf-droid noto-fonts noto-fonts-emoji wqy-microhei docker docker-compose pipewire pipewire-pulse pipewire-also pipewire-audio wireplumber visual-studio-code-bin bluez-utils-compat blueman`
 
