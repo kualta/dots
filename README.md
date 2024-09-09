@@ -4,7 +4,7 @@
 - wm: [`Hyprland`](https://hyprland.org/), [`Gnome`](https://gnome.org)
 - shell: [`bash`](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 - terminal: [`kitty`](https://github.com/kovidgoyal/kitty)
-- theme: [`Catpuccin`](https://rosepinetheme.com/)
+- theme: [`Catpuccin`](https://rosepinetheme.com/), [`Rose Pine`](https://rosepinetheme.com/)
 - editor: [`zed`](https://zed.dev/), [`nvim`](https://neovim.io/), [`vsc`](https://code.visualstudio.com/)
 - menu: [`tofi`](https://github.com/philj56/tofi)
 
@@ -12,9 +12,11 @@
 
 **Aliases**
 
-- `nx` - to rebuild nix os
-- `nxe` - to edit nix config
+- `nx` - rebuild nixos
+- `nxe` - edit nix config
 - `hpe` - to edit hyprland config
+- `bnuuy` - `bun i`
+- `lgtm "commit message"` - git add; git commit; git push
 
 <details>
   <summary><b>Keybinds</b></summary>
