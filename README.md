@@ -1,11 +1,11 @@
 ## Focus-first minimalist desktop setup
 ### Overview
 - host: [`NixOS`](https://nixos.org/) 
-- wm: [`Hyprland`](https://hyprland.org/)
+- wm: [`Hyprland`](https://hyprland.org/), [`Gnome`](https://gnome.org)
 - shell: [`bash`](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 - terminal: [`kitty`](https://github.com/kovidgoyal/kitty)
 - theme: [`Catpuccin`](https://rosepinetheme.com/)
-- editor: [`helix`](https://helix-editor.com/), [`neovim`](https://neovim.io/), [`vscode`](https://code.visualstudio.com/)
+- editor: [`zed`](https://zed.dev/), [`nvim`](https://neovim.io/), [`vsc`](https://code.visualstudio.com/)
 - menu: [`tofi`](https://github.com/philj56/tofi)
 
 ### Keybinds & Aliases
